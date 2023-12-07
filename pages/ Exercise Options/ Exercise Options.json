@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User",
-    "slug": "user",
+    "name": " Exercise Options",
+    "slug": "exercise-options",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 630,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "User_Restaurants",
-              "name": "Restaurants",
+              "id": " Exercise Options_Api3",
+              "name": "Api3",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User",
+        "id": " Exercise Options",
         "deleted": false,
         "policies": [],
         "userPermissions": []

@@ -1,12 +1,24 @@
 {
   "pages": [
     {
-      "id": "User",
+      "id": " Exercise Options",
       "isDefault": false
     },
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Ingredient Information",
+      "isDefault": false
+    },
+    {
+      "id": "Vegan Ingredient Information",
+      "isDefault": false
+    },
+    {
+      "id": "Page4",
+      "isDefault": false
     }
   ],
   "viewMode": false,
