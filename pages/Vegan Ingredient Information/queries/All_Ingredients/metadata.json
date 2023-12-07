@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "All_Profiles",
+    "name": "All_Ingredients",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/vegantips"
+        "url": "web:4000/m/ingredients"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page2",
+    "pageId": "Vegan Ingredient Information",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -47,11 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-<<<<<<< HEAD:pages/Page2/queries/All_Profiles/metadata.json
-  "id": "Page4_All_Profiles",
-=======
-  "id": "Page2_Api1",
->>>>>>> master:pages/Page2/queries/Api1/metadata.json
+  "id": "Vegan Ingredient Information_All_Ingredients",
   "deleted": false,
-  "gitSyncId": "657129dc20048e5f08a162ea_6571657720048e5f08a16320"
+  "gitSyncId": "657129dc20048e5f08a162ea_65712bbf20048e5f08a162fa"
 }
