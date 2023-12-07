@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "All_Profiles",
+    "name": "All_WorkoutTrackers",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/vegantips"
+        "url": "web:4000/t/workoutTrackers"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page2",
+    "pageId": "Routines",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -47,11 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-<<<<<<< HEAD:pages/Page2/queries/All_Profiles/metadata.json
-  "id": "Page4_All_Profiles",
-=======
-  "id": "Page2_Api1",
->>>>>>> master:pages/Page2/queries/Api1/metadata.json
+  "id": "Routines_All_WorkoutTrackers",
   "deleted": false,
-  "gitSyncId": "657129dc20048e5f08a162ea_6571657720048e5f08a16320"
+  "gitSyncId": "657172be118a60361bcfef49_6571e9ad118a60361bcfef60"
 }

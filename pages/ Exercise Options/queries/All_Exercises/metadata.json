@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api3",
+    "name": "All_Exercises",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": " Exercise Options_Api3",
+  "id": " Exercise Options_All_Exercises",
   "deleted": false,
   "gitSyncId": "6570e6979e80fc4896eb066b_6570f8829e80fc4896eb0687"
 }

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 720,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Ingredient Information_Api1",
-              "name": "Api1",
+              "id": "Ingredient Information_All_Ingredients",
+              "name": "All_Ingredients",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

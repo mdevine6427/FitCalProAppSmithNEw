@@ -23,6 +23,10 @@
     {
       "id": "Janet Persona",
       "isDefault": false
+    },
+    {
+      "id": "Routines",
+      "isDefault": false
     }
   ],
   "viewMode": false,
