@@ -28,7 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page2_Api1",
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
