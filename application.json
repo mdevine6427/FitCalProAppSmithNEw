@@ -1,12 +1,16 @@
 {
   "pages": [
     {
-      "id": "User",
+      "id": "Exercise-User 1",
       "isDefault": false
     },
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Restaurants",
+    "name": "Excercise",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/restaurants"
+        "url": "web:4000/r/exercises"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "User",
+    "pageId": "Exercise-User 1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -39,7 +39,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
     "executeOnLoad": true,
@@ -53,7 +53,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "User_Restaurants",
+  "id": "Exercise-User 1_Excercise",
   "deleted": false,
-  "gitSyncId": "6570e6979e80fc4896eb066b_6570ebed9e80fc4896eb0684"
+  "gitSyncId": "6570e6979e80fc4896eb066b_6570f8829e80fc4896eb0687"
 }

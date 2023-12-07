@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User",
-    "slug": "user",
+    "name": "Page2",
+    "slug": "page2",
     "layouts": [
       {
         "viewMode": false,
@@ -13,42 +13,30 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 670,
           "containerStyle": "none",
-          "snapRows": 128,
+          "snapRows": 66,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1300,
+          "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "User_Restaurants",
-              "name": "Restaurants",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User",
+        "id": "Page2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": [],
-    "isHidden": false
+    "policies": []
   },
   "deleted": false,
-  "gitSyncId": "6570e6979e80fc4896eb066b_6570ead39e80fc4896eb067f"
+  "gitSyncId": "65710af79e80fc4896eb0695_65710ed19e80fc4896eb069d"
 }
