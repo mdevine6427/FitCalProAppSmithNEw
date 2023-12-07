@@ -295,7 +295,7 @@
     "textSize": "0.875rem",
     "widgetId": "92apf194br",
     "minWidth": 450,
-    "tableData": "{{Api1.data}}",
+    "tableData": "{{All_Ingredients.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

@@ -19,6 +19,10 @@
     {
       "id": "Page4",
       "isDefault": false
+    },
+    {
+      "id": "Routines",
+      "isDefault": false
     }
   ],
   "viewMode": false,
