@@ -124,7 +124,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "0.375rem",
-    "originalBottomRow": 28,
+    "originalBottomRow": 31,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -160,7 +160,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 5,
+                "sourceData": 377,
                 "fieldType": "Number Input"
             },
             "workoutID": {
@@ -182,7 +182,7 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": 2,
+                "sourceData": 6,
                 "fieldType": "Number Input"
             },
             "dayTrackerID": {
@@ -204,7 +204,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 19,
+                "sourceData": 39,
                 "fieldType": "Number Input"
             },
             "timeDuration": {
@@ -226,7 +226,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 133,
+                "sourceData": 114,
                 "fieldType": "Number Input"
             }
         },
@@ -251,10 +251,10 @@
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 28,
+    "bottomRow": 31,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Delete Workout",
     "hideCard": false,
     "mobileRightColumn": 22,
     "parentColumnSpace": 17.9375,

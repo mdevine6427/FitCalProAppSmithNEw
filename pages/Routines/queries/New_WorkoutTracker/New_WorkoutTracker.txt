@@ -1,5 +1,4 @@
 {
 	caloriesBurnt: {{ New_Workout.formData.caloriesBurnt }},
 	timeDuration: {{ New_Workout.formData.timeDuration }},
-	dayTrackerID: {{ Math.random(1000) }},
 }

@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\tcaloriesBurnt: {{ New_Workout.formData.caloriesBurnt }},\n\ttimeDuration: {{ New_Workout.formData.timeDuration }},\n\tdayTrackerID: {{ Math.random(1000) }},\n}",
+      "body": "{\n\tcaloriesBurnt: {{ New_Workout.formData.caloriesBurnt }},\n\ttimeDuration: {{ New_Workout.formData.timeDuration }},\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,6 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      " Math.random(1000) ",
       " New_Workout.formData.caloriesBurnt ",
       " New_Workout.formData.timeDuration "
     ],

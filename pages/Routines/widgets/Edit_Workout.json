@@ -128,7 +128,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 86,
+    "originalBottomRow": 71,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -164,7 +164,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 318,
+                "sourceData": 377,
                 "fieldType": "Number Input"
             },
             "workoutID": {
@@ -177,7 +177,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Edit_Workout.sourceData, Edit_Workout.formData, Edit_Workout.fieldState)}}",
                 "dataType": "number",
                 "accessor": "workoutID",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Workout ID",
                 "originalIdentifier": "workoutID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Edit_Workout.sourceData, Edit_Workout.formData, Edit_Workout.fieldState)}}",
@@ -186,7 +186,7 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 6,
                 "fieldType": "Number Input"
             },
             "dayTrackerID": {
@@ -199,7 +199,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Edit_Workout.sourceData, Edit_Workout.formData, Edit_Workout.fieldState)}}",
                 "dataType": "number",
                 "accessor": "dayTrackerID",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Day Tracker ID",
                 "originalIdentifier": "dayTrackerID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Edit_Workout.sourceData, Edit_Workout.formData, Edit_Workout.fieldState)}}",
@@ -208,7 +208,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 57,
+                "sourceData": 39,
                 "fieldType": "Number Input"
             },
             "timeDuration": {
@@ -230,7 +230,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 97,
+                "sourceData": 114,
                 "fieldType": "Number Input"
             }
         },
@@ -255,10 +255,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 86,
+    "bottomRow": 71,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Edit Workout",
     "hideCard": false,
     "mobileRightColumn": 25,
     "parentColumnSpace": 17.9375,
