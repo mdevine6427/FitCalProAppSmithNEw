@@ -3,10 +3,10 @@
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{addRecipe.run().then(() => {\n  showAlert('Success', 'success');\n});}}",
-    "topRow": 57,
+    "topRow": 63,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 5,
+    "leftColumn": 11,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -139,7 +139,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 135,
+    "originalBottomRow": 141,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -349,9 +349,9 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 135,
+    "bottomRow": 141,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add Recipe",
@@ -374,7 +374,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 57,
+    "originalTopRow": 63,
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
