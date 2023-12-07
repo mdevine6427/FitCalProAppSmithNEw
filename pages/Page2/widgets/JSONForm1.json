@@ -1,0 +1,157 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "borderColor": "#E0DEDE",
+    "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+    "topRow": 20,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 8,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"},
+        {"key": "submitButtonStyles.buttonColor"},
+        {"key": "submitButtonStyles.borderRadius"},
+        {"key": "resetButtonStyles.buttonColor"},
+        {"key": "resetButtonStyles.borderRadius"}
+    ],
+    "showReset": true,
+    "flexVerticalAlignment": "start",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": "false",
+    "resetButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Layout"
+    ],
+    "isLoading": false,
+    "submitButtonLabel": "Submit",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 61,
+    "useSourceData": false,
+    "schema": {},
+    "mobileBottomRow": 61,
+    "widgetName": "JSONForm1",
+    "submitButtonStyles": {
+        "boxShadow": "none",
+        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [
+        {"key": "autoGenerateForm"},
+        {"key": "sourceData"}
+    ],
+    "displayName": "JSON Form",
+    "bottomRow": 39,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Form",
+    "hideCard": false,
+    "mobileRightColumn": 33,
+    "parentColumnSpace": 17.9375,
+    "dynamicTriggerPathList": [],
+    "borderWidth": "1",
+    "sourceData": "[\n  {\n    \"tip\": \"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\",\n    \"tipID\": 1\n  },\n  {\n    \"tip\": \"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.\",\n    \"tipID\": 2\n  },\n  {\n    \"tip\": \"Nulla facilisi.\",\n    \"tipID\": 3\n  },\n  {\n    \"tip\": \"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.\",\n    \"tipID\": 4\n  },\n  {\n    \"tip\": \"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\",\n    \"tipID\": 5\n  },\n  {\n    \"tip\": \"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\",\n    \"tipID\": 6\n  },\n  {\n    \"tip\": \"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.\",\n    \"tipID\": 7\n  },\n  {\n    \"tip\": \"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\",\n    \"tipID\": 8\n  },\n  {\n    \"tip\": \"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.\",\n    \"tipID\": 9\n  },\n  {\n    \"tip\": \"Curabitur at ipsum ac tellus semper interdum.\",\n    \"tipID\": 10\n  },\n  {\n    \"tip\": \"Integer non velit.\",\n    \"tipID\": 11\n  },\n  {\n    \"tip\": \"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.\",\n    \"tipID\": 12\n  },\n  {\n    \"tip\": \"Aenean sit amet justo. Morbi ut odio.\",\n    \"tipID\": 13\n  },\n  {\n    \"tip\": \"Praesent blandit.\",\n    \"tipID\": 14\n  },\n  {\n    \"tip\": \"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.\",\n    \"tipID\": 15\n  },\n  {\n    \"tip\": \"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\",\n    \"tipID\": 16\n  },\n  {\n    \"tip\": \"In congue. Etiam justo. Etiam pretium iaculis justo.\",\n    \"tipID\": 17\n  },\n  {\n    \"tip\": \"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.\",\n    \"tipID\": 18\n  },\n  {\n    \"tip\": \"Donec semper sapien a libero.\",\n    \"tipID\": 19\n  },\n  {\n    \"tip\": \"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.\",\n    \"tipID\": 20\n  },\n  {\n    \"tip\": \"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\",\n    \"tipID\": 21\n  },\n  {\n    \"tip\": \"Curabitur convallis.\",\n    \"tipID\": 22\n  },\n  {\n    \"tip\": \"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.\",\n    \"tipID\": 23\n  },\n  {\n    \"tip\": \"Pellentesque ultrices mattis odio.\",\n    \"tipID\": 24\n  },\n  {\n    \"tip\": \"Nunc purus.\",\n    \"tipID\": 25\n  },\n  {\n    \"tip\": \"Ut at dolor quis odio consequat varius.\",\n    \"tipID\": 26\n  },\n  {\n    \"tip\": \"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.\",\n    \"tipID\": 27\n  },\n  {\n    \"tip\": \"Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.\",\n    \"tipID\": 28\n  },\n  {\n    \"tip\": \"Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.\",\n    \"tipID\": 29\n  },\n  {\n    \"tip\": \"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.\",\n    \"tipID\": 30\n  },\n  {\n    \"tip\": \"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.\",\n    \"tipID\": 31\n  },\n  {\n    \"tip\": \"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\",\n    \"tipID\": 32\n  },\n  {\n    \"tip\": \"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.\",\n    \"tipID\": 33\n  },\n  {\n    \"tip\": \"Pellentesque viverra pede ac diam.\",\n    \"tipID\": 34\n  },\n  {\n    \"tip\": \"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.\",\n    \"tipID\": 35\n  },\n  {\n    \"tip\": \"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\",\n    \"tipID\": 36\n  },\n  {\n    \"tip\": \"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\",\n    \"tipID\": 37\n  },\n  {\n    \"tip\": \"Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.\",\n    \"tipID\": 38\n  },\n  {\n    \"tip\": \"Vestibulum ac est lacinia nisi venenatis tristique.\",\n    \"tipID\": 39\n  },\n  {\n    \"tip\": \"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.\",\n    \"tipID\": 40\n  },\n  {\n    \"tip\": \"Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\",\n    \"tipID\": 41\n  },\n  {\n    \"tip\": \"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.\",\n    \"tipID\": 42\n  },\n  {\n    \"tip\": \"Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\",\n    \"tipID\": 43\n  },\n  {\n    \"tip\": \"Fusce consequat. Nulla nisl.\",\n    \"tipID\": 44\n  },\n  {\n    \"tip\": \"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\",\n    \"tipID\": 45\n  }\n]",
+    "resetButtonLabel": "Reset",
+    "key": "74q0ejf888",
+    "backgroundColor": "#fff",
+    "isDeprecated": false,
+    "rightColumn": 33,
+    "widgetId": "0kn74s25ch",
+    "minWidth": 450,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 20,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 20,
+    "mobileLeftColumn": 8,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}
