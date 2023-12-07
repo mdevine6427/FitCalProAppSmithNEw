@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": " Exercise Options",
-    "slug": "exercise-options",
+    "name": "Janet Persona",
+    "slug": "janet-persona",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 1550,
           "containerStyle": "none",
-          "snapRows": 128,
+          "snapRows": 43,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 1300,
+          "minHeight": 450,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": " Exercise Options_All_Exercises",
-              "name": "All_Exercises",
+              "id": "Janet Persona_getAllMeals",
+              "name": "getAllMeals",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Janet Persona_getAllRecipes",
+              "name": "getAllRecipes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +47,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": " Exercise Options",
+        "id": "Janet Persona",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +58,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6570e6979e80fc4896eb066b_6570ead39e80fc4896eb067f"
+  "gitSyncId": "65712effefb1bc1697c5e993_6571fac8f2df1366fe2a449f"
 }

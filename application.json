@@ -15,6 +15,21 @@
     {
       "id": "Vegan Ingredient Information",
       "isDefault": false
+<<<<<<< HEAD
+=======
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Janet Persona",
+      "isDefault": false
+    },
+    {
+      "id": "Routines",
+      "isDefault": false
+>>>>>>> master
     }
   ],
   "viewMode": false,

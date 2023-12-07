@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Vegan Ingredient Information_Api1",
-              "name": "Api1",
+              "id": "Vegan Ingredient Information_All_Ingredients",
+              "name": "All_Ingredients",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

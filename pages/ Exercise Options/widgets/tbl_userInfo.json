@@ -332,7 +332,7 @@
     "widgetId": "56er52c53d",
     "enableServerSideFiltering": false,
     "minWidth": 450,
-    "tableData": "{{Api3.data}}",
+    "tableData": "{{All_Exercises.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",
