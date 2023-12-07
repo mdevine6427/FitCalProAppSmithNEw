@@ -32,7 +32,11 @@
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                " New_Workout.formData.CaloriesBurnt ",
+                " New_Workout.formData.Duration ",
+                " Math.random(1000) "
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
