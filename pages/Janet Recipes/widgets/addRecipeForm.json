@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{addRecipe.run().then(() => {\n  showAlert('Success', 'success');\n});}}",
+    "onSubmit": "{{addRecipe.run().then(() => {\n  showAlert('Success', 'success');\n  resetWidget(\"Recipes\", true);\n});}}",
     "topRow": 7,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
