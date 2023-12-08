@@ -1,12 +1,16 @@
 {
   "pages": [
     {
-      "id": "User",
+      "id": "Janet Meals",
       "isDefault": false
     },
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Janet Recipes",
+      "isDefault": false
     }
   ],
   "viewMode": false,
